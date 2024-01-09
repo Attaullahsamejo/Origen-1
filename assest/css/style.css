@@ -25,6 +25,31 @@ body {
     padding-bottom: 20px;
 }
 
+.dropdown .dropbtn {
+    border: none;
+    color: rgba(255, 255, 255, .55);
+    padding: 9px 24px;
+    background: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: #06111c;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 .sticky-header {
     position: fixed;
     top: -20px;
@@ -152,6 +177,7 @@ h1 {
     font-size: 56px;
     line-height: 60px;
     letter-spacing: 1.12px;
+    
 }
 
 h2 {
@@ -199,7 +225,7 @@ p {
     font-size: 22px;
 }
 
-                         /* Our Vision */
+/* Our Vision */
 .line {
     border-left: 3px solid #867EE8;
 }
@@ -219,10 +245,10 @@ p {
 
 .modal-dialog {
     max-width: 80%;
-    
+
 }
 
-                    /* Our Vision End*/
+/* Our Vision End*/
 .mb-8 {
     margin-bottom: 80px;
 }
@@ -243,7 +269,8 @@ p {
     border-radius: 24px;
     background: rgba(0, 25, 38, 0.50);
 }
-.product-section{
+
+.product-section {
     background-image: url('/assest/images/gradient1.png');
     background-repeat: no-repeat;
     top: left;
@@ -255,7 +282,7 @@ p {
     background-size: cover;
 }
 
-               /* <!-- Roadmap Section --> */
+/* <!-- Roadmap Section --> */
 .owl-carousel .owl-nav button.owl-next,
 .owl-carousel .owl-nav button.owl-prev,
 .owl-carousel button.owl-dot {
@@ -313,11 +340,12 @@ p {
 
 .owl-carousel {
     display: block;
-    
-}
-                  /* <!-- Roadmap Section --> */
 
-                         /* FAQS */
+}
+
+/* <!-- Roadmap Section --> */
+
+/* FAQS */
 .accordion-button:not(.collapsed) {
     box-shadow: none;
     color: #FFF;
@@ -339,17 +367,19 @@ p {
 .accordion-button::after {
     background-image: url(../images/arrow-down.png);
 }
-                      /* FAQS End */
 
-                    /* Started Section*/
+/* FAQS End */
+
+/* Started Section*/
 .Started {
     background: url(/assest/images/Ellipse\ 15.png) no-repeat top,
         url(/assest/images/Ellipse\ 16.png) no-repeat bottom, rgba(134, 126, 232, 0.04);
     background-size: cover;
 }
-                     /* Started Section End*/
 
-                       /* Footer Section*/
+/* Started Section End*/
+
+/* Footer Section*/
 .footer-text {
     opacity: 0.6;
 }
@@ -361,7 +391,8 @@ p {
 .mt-15 {
     margin-top: 160px;
 }
-                   /* Footer Section End*/
+
+/* Footer Section End*/
 
 .tokenomics-Section {
     background-image: url(/assest/images/gradient2.png);
@@ -369,7 +400,7 @@ p {
     top: left;
 }
 
-                       /* Meet Our Team */
+/* Meet Our Team */
 .cards {
     padding: 24px;
 }
@@ -377,7 +408,8 @@ p {
 .cards img {
     border-radius: 74px;
 }
-                      /* Meet Our Team End */
+
+/* Meet Our Team End */
 
 
 @media screen and (max-width: 1199.7px) {}
